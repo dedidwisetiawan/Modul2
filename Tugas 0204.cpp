@@ -9,4 +9,7 @@ luas(42),jumlah_box(22.3885),luas_box(1.87596),biaya_parket(11194.3),biaya_pasan
 	cout<<"Luas Rumah\t\t:"<<luas<<"m2/n";
 	luas_box=1.87596;
 	jumlah_box=luas/luas_box;
+	cout<<"Luas 1 box parket\t:"<<luas_box<<"m2\n";
+	cout<<"Jumlah box parket\t:"<<jumlah_box<<"\n";
+	biaya_parket=500*jumlah_box;
 }
