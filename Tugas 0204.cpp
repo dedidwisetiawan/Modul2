@@ -14,4 +14,6 @@ luas(42),jumlah_box(22.3885),luas_box(1.87596),biaya_parket(11194.3),biaya_pasan
 	biaya_parket=500*jumlah_box;
 	cout<<"Biaya parket(Rp)\t:"<<biaya_parket<<"\n";
 	biaya_pasang=luas*20;
+	total_biaya=biaya_parket+biaya_pasang;
+	cout<<"Total Biaya(Rp)\t\t:"<<total_biaya<<"\n";
 }
